@@ -111,16 +111,7 @@ body{
 
 
 }
-.box-dash__title{
-    box-sizing: border-box;
-    width: 100%;
-    background: linear-gradient(
-            118deg
-            ,#7367f0,rgba(115,103,240,.7));
-    padding: 5px 10px;
-    text-transform: uppercase;
-    border-bottom: 2px solid #280d0d;
-}
+
 .box-dash__footer{
     box-sizing: border-box;
     width: 100%;
@@ -203,6 +194,46 @@ body{
     background-color: #d8d6de;
     border: 1px solid #d8d6de;
     color:#283046;
+}
+
+.box-dash__item{
+    padding: 20px 15px;
+}
+.box-dash__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4px 0;
+}
+
+.box-dash__row:nth-child(1){
+    margin-bottom:20px;
+}
+
+.box-dash__row:nth-child(1) .box-dash__title{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.box-dash__row:nth-child(1) .box-dash__value{
+    font-weight: 500;
+    font-size: 20px;
+    color: darkgoldenrod;
+}
+
+.box-dash__title{
+    font-size: 12px;
+    opacity: 0.6;
+
+}
+.box-dash__value{
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+.mb-20{
+    margin-bottom: 20px;
 }
 
 
