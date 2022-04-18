@@ -5,7 +5,7 @@ body{
     border: 0;
     font-family: "Rubik";
     font-weight: 400;
-    background: #232d45;
+    background: #161d31;
     color: #fff;
 
 }
@@ -48,29 +48,39 @@ body{
     font-size: 30px;
 
 }
+
+.header__link{
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 9px;
+    padding-bottom: 20px;
+}
 .header__nav{
     box-sizing: border-box;
-    background: #5e8189;
-    border-radius: 30px;
-    width: 500px;
-    padding: 20px 20px;
+    background: linear-gradient(
+            118deg
+            ,#7367f0,rgba(115,103,240,.7));
+    border-radius: 50px;
+    width: 550px;
+    padding: 15px 20px;
 
 }
 
 .header__nav__item{
-    padding: 5px 15px;
+    padding: 10px 15px;
     border-radius: 30px;
     cursor: pointer;
     box-sizing: border-box;
 
 }
 .header__nav__item:hover, .header__nav__item-active{
-     background: #000;
+     background: #283046;
+    border-color: #283046;
      padding: 8px 15px;
      border-radius: 30px;
      cursor: pointer;
      box-sizing: border-box;
-     font-weight: 500;
+     /*font-weight: 550;*/
 
  }
 
@@ -90,10 +100,11 @@ body{
     width: 100%;
     min-width: 300px;
     min-height: 300px;
-    background: #fff;
-    border: 1px solid #D8E4EE;
-    border-radius: 2px;
+    background: #3b4253;
+    border: 1px solid #797ccdad;
+    border-radius: 7px;
     margin-right: 20px;
+
 }
 
 .dash__box__item:hover {
@@ -103,7 +114,9 @@ body{
 .box-dash__title{
     box-sizing: border-box;
     width: 100%;
-    background: #3a639a;
+    background: linear-gradient(
+            118deg
+            ,#7367f0,rgba(115,103,240,.7));
     padding: 5px 10px;
     text-transform: uppercase;
     border-bottom: 2px solid #280d0d;
@@ -119,6 +132,36 @@ body{
 .box-dash__footer span{
     font-size: 9px;
 
+}
+
+.footer{
+    padding-top: 20px;
+    font-size:12px;
+}
+
+
+
+@media (max-width: 970px){
+    .dash__box{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 750px){
+    .dash__box{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .header__title{
+        font-size: 20px;
+
+    }
+    .header__nav{
+        width: 400px;
+
+    }
+    .header__nav__item{
+        font-size: 13px;
+    }
 }
 
 
