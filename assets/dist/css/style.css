@@ -73,7 +73,7 @@ body{
     box-sizing: border-box;
 
 }
-.header__nav__item:hover, .header__nav__item-active{
+.nav__item:hover, .nav__item-active{
      background: #283046;
     border-color: #283046;
      padding: 8px 15px;
@@ -83,7 +83,6 @@ body{
      /*font-weight: 550;*/
 
  }
-
 
 
 .dash__box{
