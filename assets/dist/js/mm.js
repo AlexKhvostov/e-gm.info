@@ -1,8 +1,8 @@
 if (typeof window.ethereum !== 'undefined') {
     console.log('MetaMask is installed!');
 
-    const ethereumButton = document.querySelector('.enableEthereumButton');
-    const showAccount = document.querySelector('.showAccount');
+    const ethereumButton = document.querySelector('#connectmm');
+    const showAccount = document.querySelector('#UserWallet');
 
     ethereumButton.addEventListener('click', () => {
         getAccount();
@@ -11,7 +11,7 @@ if (typeof window.ethereum !== 'undefined') {
     async function getAccount() {
         const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
         const account = accounts[0];
-        showAccount.innerHTML = account;
+        showAccount.value = account.slice(0,8)+"..."+account.slice(-6);
         console.log("connection:",  ethereum.isConnected())
     }
 }else {
