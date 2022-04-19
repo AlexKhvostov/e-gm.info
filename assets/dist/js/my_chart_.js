@@ -2065,41 +2065,44 @@ anychart.onDocumentReady(function () {
     // extraYAxis.scale(extraYScale);
 
 
+
+
+
+
+    var columnSeries2 = plot_line_ohlc.column(maxLinesUsers);
+    columnSeries2.color('#6e57ec');
+    columnSeries2.stroke('2 #6e57ec');
+    columnSeries2.labels().useHtml(true).format(function() {
+        return '<b>Wallet: </b>' + this.x ;
+    })
+    columnSeries2.name("[Max] текущей линии");
+
+
+
+    var columnSeries3 = plot_line_ohlc.column(minLinesUsers);
+    columnSeries3.stroke('3 #3b4253');
+    columnSeries3.color('#3b4253');
+    columnSeries3.name("[Min] текущей линии");
+
     // create line series
     var lineSeries = plot_line_ohlc.line(UsersAllInLevel);
-    lineSeries.name("Количество игроков на уровне");
-
     lineSeries.color("#faf9f9");
     lineSeries.stroke("2 #ffffff");
     lineSeries.labels().useHtml(true).format(function() {
         return '<b>Wallet: </b>' + this.x ;
     })
+    lineSeries.name("[Now] игроков на уровне");
 
     // create the column series
     var columnSeries1 = plot_column.column(usersInHour);
-    columnSeries1.name("+ игроков в час");
     columnSeries1.color('white');
     columnSeries1.stroke('white');
     columnSeries1.labels().useHtml(true).format(function() {
         return '<b>NameName: </b>' + this.x ;
     })
+    columnSeries1.name("[Add] игроков в час");
 
-    var columnSeries2 = plot_line_ohlc.column(maxLinesUsers);
-    columnSeries2.name("Максимум текущей линии");
-    columnSeries2.color('#6e57ec');
-    columnSeries2.stroke('2 #6e57ec');
-
-    columnSeries2.labels().useHtml(true).format(function() {
-        return '<b>Wallet: </b>' + this.x ;
-    })
-
-    var columnSeries3 = plot_line_ohlc.column(minLinesUsers);
-    columnSeries3.name("Минимум текущей линии");
-
-    columnSeries3.stroke('3 #3b4253');
-    columnSeries3.color('#3b4253');
-
-    chart.background().fill("#3b4253");
+    chart.background().fill("#2e323f");
 
 
     // set container id for the chart
