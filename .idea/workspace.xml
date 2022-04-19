@@ -2,55 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b12b774-03ec-4450-8af2-6b9609690860" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/dist/js/my_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/dist/js/my_chart_.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/dist/js/thermometer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/charts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DashBoard.html" beforeDir="false" afterPath="$PROJECT_DIR$/DashBoard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DashBoard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/brand/bootstrap-logo-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/brand/bootstrap-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/auto/auto.esm.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/auto/auto.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/auto/auto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/auto/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/chart.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/chart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/chunks/helpers.segment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/helpers.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/helpers/helpers.esm.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/helpers/helpers.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/helpers/helpers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/helpers/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/adapters.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/animation.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/basic.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/color.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/element.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/geometric.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/helpers/helpers.canvas.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/helpers/helpers.collection.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/helpers/helpers.color.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/helpers/helpers.core.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/helpers/helpers.curve.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/helpers/helpers.dom.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/helpers/helpers.easing.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/helpers/helpers.extras.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/helpers/helpers.interpolation.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/helpers/helpers.intl.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/helpers/helpers.math.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/helpers/helpers.options.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/helpers/helpers.rtl.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/helpers/helpers.segment.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/helpers/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/index.esm.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/layout.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chart.js/types/utils.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/dist/js/DashBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dist/js/DashBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/dist/js/mm.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dist/js/mm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,16 +46,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/dist/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\!dev\e-gm.info\assets\dist\js" />
       <recent name="D:\!dev\e-gm.info" />
       <recent name="D:\!dev\e-gm.info\examole_dashboard" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="my_chart_.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/dist/js/my_chart_.js" working-dir="$PROJECT_DIR$/assets/dist/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.my_chart_.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -109,7 +80,7 @@
       <workItem from="1650289178620" duration="10196000" />
       <workItem from="1650316957878" duration="11000" />
       <workItem from="1650316971458" duration="50000" />
-      <workItem from="1650317165275" duration="559000" />
+      <workItem from="1650317165275" duration="23714000" />
     </task>
     <servers />
   </component>

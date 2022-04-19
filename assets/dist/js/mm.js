@@ -15,8 +15,8 @@ if (typeof window.ethereum !== 'undefined') {
         console.log("connection:",  ethereum.isConnected())
     }
 }else {
-
-} console.log('MetaMask is not installed!');
+    console.log('MetaMask is not installed!');
+}
 
 
 

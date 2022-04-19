@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/dist/css/style.css">
+    <link rel="shortcut icon" href="assets/dist/favicon/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>DashBoard</title>
+</head>
+<body style="opacity: 1; transition: opacity 0.9s ease-in-out 0s;">
+<div class="_container">
+    <header class="header flex-center">
+        <div class="flex-center">
+            <div class="header__title">Express Game Dashboard
+                <span>
+                   <a class="header__link" href="https://express.game/"> Перейти на сайт</a>
+                </span>
+            </div>
+
+        </div>
+        <div class="header__enter flex-center">
+            <input type="text" name="" id="UserWallet">
+            <button class="btn" id="connectmm" type="">Вход</button>
+        </div>
+
+    </header>
+    <div class="nav flex-center">
+        <div class="nav__item">Express Max</div>
+        <div class="nav__item">Express Game</div>
+        <div class="nav__item">Express Drive</div>
+    </div>
+
+    <section class="dash__block">
+        <div class="dash__box">
+            <div class="box-dash__item">
+                <div class="box-dash__row">
+                    <div class="box-dash__title">Lvl</div>
+                    <div class="box-dash__value">1D</div>
+                </div>
+                <div class="box-dash__row">
+                    <div class="box-dash__title">Активная линия уровня</div>
+                    <div class="box-dash__value">16</div>
+                </div>
+                <div class="box-dash__row">
+                    <div class="box-dash__title">Начало линии</div>
+                    <div class="box-dash__value">16 384</div>
+                </div>
+                <div class="box-dash__row">
+                    <div class="box-dash__title">Количество активаций уровня</div>
+                    <div class="box-dash__value">21 654</div>
+                </div>
+                <div class="box-dash__row mb-20">
+                    <div class="box-dash__title">Процент заполнения активной линии</div>
+                    <div class="box-dash__value">16,456%</div>
+                </div>
+
+                <div class="box-dash__row">
+                    <div class="box-dash__title">Количество покупок за 24 ч</div>
+                    <div class="box-dash__value">12</div>
+                </div>
+
+                <div class="box-dash__row mb-20">
+                    <div class="box-dash__title">+% линии за 24 час</div>
+                    <div class="box-dash__value">0,05%</div>
+                </div>
+
+                <div class="box-dash__row">
+                    <div class="box-dash__title">Дата вашей активации</div>
+                    <div class="box-dash__value">12.04.2022 12:44:12</div>
+                </div>
+                <div class="box-dash__row">
+                    <div class="box-dash__title">Ваша позиция при первой активации</div>
+                    <div class="box-dash__value">3214</div>
+                </div>
+                <div class="box-dash__row">
+                    <div class="box-dash__title">Всего ваших активаций уровня</div>
+                    <div class="box-dash__value">1</div>
+                </div>
+            </div>
+
+            <div class="box-dash__item">
+                <div class="chart">
+                    <canvas id="myChart" width="400" height="400"></canvas>
+
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                    <div style="display: flex; flex-flow: column nowrap; justify-content: space-between;"><span
+                            title="Last update info 17.04.2022 14:22:11 (UTC)"
+                            style="font-size: 80%; color: rgb(246, 225, 6); display: block;">✔ 14:22:11</span><span
+                            title="➫ NaN  users play in this level"
+                            style="font-size: 80%; color: rgb(199, 4, 255); display: block;">➫ NaN </span></div>
+                    <div style="display: flex; flex-flow: column nowrap; justify-content: space-between;"><span
+                            class=" text-white text-center"
+                            style="font-size: 80%; color: rgb(187, 245, 106);">☑44 544</span><span
+                            class=" text-white text-center" style="font-size: 75%; color: rgb(255, 255, 255);">86.6% (17↩)</span>
+                    </div>
+                    <div style="display: flex; flex-flow: column nowrap; justify-content: space-between; align-items: flex-end;">
+                        <span title="↻ 5572 people per day (24h)" style="font-size: 80%; color: rgb(255, 218, 75);">↻ 5583</span><span
+                            class=" text-white text-center"
+                            style="font-size: 80%; color: rgb(0, 255, 228);"> ➫64 266</span>
+                    </div>
+                </div>
+                <div class="h-3.5 relative max-w-xl rounded-sm overflow-hidden" style="margin: 0px 5% 3px;">
+                    <div class="w-full h-full bar-gradient absolute rounded-sm"></div>
+                    <div class="transition-all ease-out duration-1000 h-full bg-gradient-to-r from-purple-300 to-green-700 relative"
+                         style="width: 86.6%;"></div>
+                </div>
+            </div>
+            <div class="box-dash__item flex-center">
+                <div class="box-dash__title">Graph by BNB</div>
+                <div class="box-dash__footer">Обновлено:
+                    <span>19.04.2022 20:01</span>
+                </div>
+
+            </div>
+
+            <div class="box-dash__item"></div>
+            <div class="box-dash__item"></div>
+
+            <div class="box-dash__item"></div>
+        </div>
+
+    </section>
+    <footer class="footer">
+        <p>© e-gm.info - наши рабы руками собирают статистику для вас прямо сейчас. Все права конечно не защищены.</p>
+        <p>Копирование информации только после того как капнет денежка</p>
+    </footer>
+</div>
+
+<script src="assets/dist/js/DashBoard.js"></script>
+<script src="assets/dist/js/mm.js"></script>
+
+</body>
+</html>

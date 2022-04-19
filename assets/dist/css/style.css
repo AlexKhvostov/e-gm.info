@@ -7,8 +7,12 @@ body{
     font-weight: 400;
     background: #161d31;
     color: #fff;
-
 }
+
+section{
+    margin-top: 20px;
+}
+
 .flex-center{
     display: flex;
     align-items: center;
@@ -97,7 +101,7 @@ body{
     align-items: flex-start;
     box-sizing: border-box;
     width: 100%;
-    min-width: 300px;
+    min-width: 200px;
     min-height: 300px;
     background: #3b4253;
     border: 1px solid #797ccdad;
@@ -105,6 +109,22 @@ body{
     margin-right: 20px;
 
 }
+
+.box-chart__item{
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 240px;
+    min-height: 300px;
+    background: #3b4253;
+    border: 1px solid #797ccdad;
+    border-radius: 7px;
+    margin-right: 20px;
+
+}
+
+
 
 .dash__box__item:hover {
 
