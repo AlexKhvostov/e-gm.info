@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b12b774-03ec-4450-8af2-6b9609690860" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/dist/js/my_chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dist/js/my_chart_.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dist/js/thermometer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/charts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DashBoard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/e-gm.info.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DashBoard.html" beforeDir="false" afterPath="$PROJECT_DIR$/DashBoard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/dist/js/DashBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dist/js/DashBoard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/dist/js/mm.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dist/js/mm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cover.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27tPCrgtbZ4XBeShqMgOpAl6IMx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,27 +48,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/dist/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\!dev\e-gm.info\assets\dist\js" />
       <recent name="D:\!dev\e-gm.info" />
       <recent name="D:\!dev\e-gm.info\examole_dashboard" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="my_chart_.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/dist/js/my_chart_.js" working-dir="$PROJECT_DIR$/assets/dist/js">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.my_chart_.js" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,9 +69,6 @@
       <updated>1650136286429</updated>
       <workItem from="1650136287595" duration="6141000" />
       <workItem from="1650289178620" duration="10196000" />
-      <workItem from="1650316957878" duration="11000" />
-      <workItem from="1650316971458" duration="50000" />
-      <workItem from="1650317165275" duration="23714000" />
     </task>
     <servers />
   </component>
