@@ -69,6 +69,10 @@ section{
     padding: 15px 20px;
 
 }
+#myChart{
+    border-radius: 8px;
+    padding: 10px 0;
+}
 
 .nav__item{
     padding: 10px 15px;
