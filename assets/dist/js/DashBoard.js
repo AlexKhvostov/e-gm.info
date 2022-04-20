@@ -5,7 +5,10 @@ const minMAX = document.body.querySelectorAll('.minMAX');
 let checkBox = document.body.querySelectorAll(".form-check-input");
 const tables = document.body.querySelectorAll("div[class='box-dash__item']");
 const btnGetChart = document.body.querySelector(".btnGetChart");
+minMAX.forEach((e,i)=>{
+    e.classList.add("hidden")
 
+})
 console.log(tables);
 
 hideBloks.addEventListener('click', ()=>{
