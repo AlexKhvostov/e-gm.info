@@ -107,16 +107,17 @@ section{
     grid-row-gap: 30px;
 }
 .box-dash__item{
+
     flex-direction: column;
     align-items: flex-start;
     box-sizing: border-box;
     width: 100%;
-    min-width: 200px;
-    min-height: 300px;
+    min-width: 250px;
+    /*min-height: 300px;*/
     background: #3b4253;
     border: 1px solid #797ccdad;
-    border-radius: 7px;
-    margin-right: 20px;
+    border-radius: 8px;
+    margin-right: 5px;
 
 }
 .box-dash__item.mini{
@@ -139,7 +140,7 @@ section{
     background: #3b4253;
     border: 1px solid #797ccdad;
     border-radius: 7px;
-    margin-right: 20px;
+    margin-right: 10px;
 
 }
 
@@ -235,7 +236,7 @@ section{
 }
 
 .box-dash__item{
-    padding: 20px 15px;
+    padding: 8px 16px;
 }
 .box-dash__row{
     display: flex;
@@ -245,7 +246,7 @@ section{
 }
 
 .box-dash__row:nth-child(1){
-    margin-bottom:20px;
+    margin-bottom:2px;
 }
 
 .box-dash__row:nth-child(1) .box-dash__title{
@@ -253,11 +254,11 @@ section{
     font-size: 14px;
 }
 
-.box-dash__row:nth-child(1) .box-dash__value{
-    font-weight: 500;
-    font-size: 20px;
-    color: darkgoldenrod;
-}
+/*.box-dash__row:nth-child(1) .box-dash__value{*/
+/*    font-weight: 500;*/
+/*    font-size: 20px;*/
+/*    color: darkgoldenrod;*/
+/*}*/
 
 .box-dash__title{
     font-size: 12px;
