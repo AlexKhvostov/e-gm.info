@@ -127,8 +127,8 @@ section{
     background: #3b4253;
     border: 1px solid #797ccdad;
     border-radius: 8px;
-    margin: 0 5px 10px 0;
-    padding: 8px 16px 0 16px;
+    margin: 5px;
+    padding: 3px 8px ;
 
 }
 .box-dash__item.mini{
@@ -274,11 +274,11 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 4px 0;
+    margin: 2px 0;
 }
 
 .box-dash__row:nth-child(1){
-    margin-bottom:2px;
+    margin-bottom:1px;
 }
 
 .box-dash__row:nth-child(1) .box-dash__title{
@@ -377,7 +377,7 @@ section{
 }
 .minMAX .box-dash__row{
     border-top: 1px solid #6b799b;
-    padding: 5px 0 3px 0;
+    padding: 0;
 }
 .minMAX .box-dash__row:nth-child(1){
     border-top: none;
