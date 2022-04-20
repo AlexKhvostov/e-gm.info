@@ -129,6 +129,19 @@ section{
     margin: 0;
 }
 
+.hidden{
+    display: none;
+    transition-property: display;
+    transition-duration: 3s;
+}
+
+.getChast{
+    border-radius: 4px;
+    width: 16px;
+    height: 20px;
+    padding: 0;
+
+}
 
 .box-chart__item{
     flex-direction: column;
@@ -215,7 +228,7 @@ section{
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.btn{
+.mybtn{
     display: inline-block;
     border: 1px solid #d8d6de;
     font-weight: 400;
@@ -229,7 +242,7 @@ section{
     margin-left: 10px;
 
 }
-.btn:hover{
+.mybtn:hover{
     background-color: #d8d6de;
     border: 1px solid #d8d6de;
     color:#283046;

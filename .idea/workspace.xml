@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b12b774-03ec-4450-8af2-6b9609690860" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/dist/css/mycss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DashBoard.html" beforeDir="false" afterPath="$PROJECT_DIR$/DashBoard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/dist/js/navBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dist/js/navBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/dist/js/DashBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dist/js/DashBoard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../statExpressApp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -78,7 +78,8 @@
       <workItem from="1650289178620" duration="10196000" />
       <workItem from="1650316957878" duration="11000" />
       <workItem from="1650316971458" duration="50000" />
-      <workItem from="1650317165275" duration="47143000" />
+      <workItem from="1650317165275" duration="47358000" />
+      <workItem from="1650419484012" duration="12440000" />
     </task>
     <servers />
   </component>

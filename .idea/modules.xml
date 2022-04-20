@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../007 Ready-Bootstrap-Dashboard-master/.idea/007 Ready-Bootstrap-Dashboard-master.iml" filepath="$PROJECT_DIR$/../007 Ready-Bootstrap-Dashboard-master/.idea/007 Ready-Bootstrap-Dashboard-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/../example/.idea/example.iml" filepath="$PROJECT_DIR$/../example/.idea/example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../statExpressApp/.idea/statExpressApp.iml" filepath="$PROJECT_DIR$/../statExpressApp/.idea/statExpressApp.iml" />
     </modules>
   </component>
 </project>
