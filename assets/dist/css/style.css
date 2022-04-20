@@ -127,7 +127,7 @@ section{
     background: #3b4253;
     border: 1px solid #797ccdad;
     border-radius: 8px;
-    margin: 5px;
+    margin: 5px 0;
     padding: 3px 8px ;
 
 }
@@ -170,9 +170,21 @@ section{
 
 
 
-.dash__box__item:hover {
+.dash__box  .table4x {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #6b799b;
+    border-radius: 7px;
 
+}
 
+.table4x__title{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .box-dash__footer{
@@ -231,7 +243,7 @@ section{
 
 }
 
-.header__enter input{
+.header__enter .header__acc{
     border: 1px solid #d8d6de;
     display: block;
     background-color: #283046 ;
@@ -240,8 +252,7 @@ section{
     font-weight: 400;
     line-height: 1.85;
     font-family: Rubik;
-    color: #6e6b7b;K
-    -webkit-appearance: none;
+    color: #6e6b7b;
     border-radius: 0.357rem;
     appearance: none;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
