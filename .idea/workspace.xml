@@ -4,7 +4,7 @@
     <list default="true" id="6b12b774-03ec-4450-8af2-6b9609690860" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DashBoard.html" beforeDir="false" afterPath="$PROJECT_DIR$/DashBoard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/dist/js/DashBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dist/js/DashBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dist/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27tPCrgtbZ4XBeShqMgOpAl6IMx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

@@ -3,6 +3,7 @@ body{
     padding: 0;
     margin: 0;
     border: 0;
+
     font-family: "Rubik";
     font-weight: 400;
     background: #161d31;
@@ -66,7 +67,7 @@ section{
             ,#7367f0,rgba(115,103,240,.7));
     border-radius: 20px;
 
-    /*padding: 5px 5px;*/
+    padding: 10px 10px;
 
     /*position: fixed;*/
     /*top: 50px;*/
@@ -91,12 +92,21 @@ section{
      background: #283046;
     border-color: #283046;
      padding: 8px 15px;
-     border-radius: 30px;
+     border-radius: 14px;
      cursor: pointer;
      box-sizing: border-box;
      /*font-weight: 550;*/
 
  }
+.nav-bar{
+    padding: 5px 0;
+    justify-content: flex-end;
+
+}
+.nav-bar__item{
+    font-size: 12px;
+
+}
 
 
 .dash__box{
@@ -117,7 +127,8 @@ section{
     background: #3b4253;
     border: 1px solid #797ccdad;
     border-radius: 8px;
-    margin-right: 5px;
+    margin: 0 5px 10px 0;
+    padding: 8px 16px 0 16px;
 
 }
 .box-dash__item.mini{
@@ -181,8 +192,16 @@ section{
     padding-top: 20px;
     font-size:12px;
 }
+.footer p{
+    margin-bottom: 3px;
+}
 
-
+@media (max-width: 970px){
+    .header{
+        flex-direction: column;
+        padding: 0 0 20px 0;
+    }
+}
 
 @media (max-width: 970px){
     .dash__box{
@@ -249,7 +268,7 @@ section{
 }
 
 .box-dash__item{
-    padding: 8px 16px;
+
 }
 .box-dash__row{
     display: flex;
@@ -287,6 +306,84 @@ section{
 .mb-20{
     margin-bottom: 20px;
 }
+
+.form-check-input{
+    cursor: pointer;
+
+}
+
+.box-dash__item .progress {
+    margin: 5px 0;
+}
+
+.box-dash__level {
+    color: darkgoldenrod;
+    font-size: 14px;
+    font-weight: bold;
+    border-right: 2px solid #6b799b;
+    padding-right: 10px;
+}
+
+.box-dash__line {
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+    border-right: 2px solid #6b799b;
+    padding-right: 10px;
+}
+
+.box-dash__percent {
+    color: darkolivegreen;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.box-dash__min {
+    color: #78dd38;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.box-dash__now {
+    color: yellow;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.box-dash__max {
+    color: #bc2328;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.box-dash__text {
+    font-size: 12px;
+    color: #a5a5c7;
+}
+
+.box-dash__first-pay{
+    font-size: 13px;
+}
+.box-dash__count-pays{
+
+    font-weight: bold;
+
+
+}
+
+.box-dash__position{
+    border-right: 2px solid #6b799b;
+    padding-right: 10px;
+}
+.minMAX .box-dash__row{
+    border-top: 1px solid #6b799b;
+    padding: 5px 0 3px 0;
+}
+.minMAX .box-dash__row:nth-child(1){
+    border-top: none;
+}
+
+
 
 
 

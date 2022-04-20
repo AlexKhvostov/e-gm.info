@@ -42,27 +42,30 @@
         <div class="nav__item">Express Game</div>
         <div class="nav__item">Express Drive</div>
         <div class="nav__item hideBloks">Свернуть уровни</div>
-        <div class="nav__item showBloks">Развернуть уровни</div>
+        <div class="nav__item showBloks">Подробнее</div>
 
 
     </div>
+<!--    <div class="nav-bar  flex-center">-->
+<!--        <div class="nav-bar__item showBloks">Подробнее</div>-->
+<!--    </div>-->
 
     <section class="dash__block">
         <div class="dash__box">
             <div>
             <div class="box-dash__item">
-                <div class="box-dash__row">
-                    <div class="form-check form-switch">
-                        <input class="form-check-input" type="checkbox" id="1D">
-                    </div>
-                    <div class="box-dash__value"><span class="lvlNum">1</span></div>
+                <div class="box-dash__row"> <!-- # row1-->
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="1D">
+                        </div>
+                        <div class="box-dash__level"><span class="lvlNum">1</span></div>
 
-                    <div class="box-dash__title"> |</div>
-                    <div class="box-dash__title">Линия</div>
-                    <div class="box-dash__value"><span class="lineNum"></span></div>
-                    <div class="box-dash__title">:</div>
-                    <div class="box-dash__value"><span class="linePercent"></span></div>
-                    <div class="box-dash__title"> |</div>
+    <!--                    <div class="box-dash__div"> |</div>-->
+                        <div class="box-dash__text">Линия</div>
+                        <div class="box-dash__line"><span class="lineNum"></span></div>
+    <!--                    <div class="box-dash__div">:</div>-->
+                        <div class="box-dash__percent"><span class="linePercent"></span></div>
+    <!--                    <div class="box-dash__div"> |</div>-->
 
                 </div>
                 <div class="progress">
@@ -71,39 +74,38 @@
                          aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                 <div class="minMAX">
-                    <div class="box-dash__row">
-                        <div class="box-dash__title">| MIN</div>
-                        <div class="box-dash__value"><span class="minUser"></span></div>
-                        <div class="box-dash__title">| NOW</div>
-                        <div class="box-dash__value"><span class="nowUser"></span></div>
-                        <div class="box-dash__title">| MAX</div>
-                        <div class="box-dash__value"><span class="maxUser"></span></div>
-                        <div class="box-dash__title"> |</div>
+                    <div class="box-dash__row"> <!-- # row 2-->
+                        <div class="box-dash__text">min</div>
+                        <div class="box-dash__min"><span class="minUser"></span></div>
+                        <div class="box-dash__text">now</div>
+                        <div class="box-dash__now"><span class="nowUser"></span></div>
+                        <div class="box-dash__text">max</div>
+                        <div class="box-dash__max"><span class="maxUser"></span></div>
+<!--                        <div class="box-dash__title"> |</div>-->
                     </div>
-                    <div class="box-dash__row">
-                        <div class="box-dash__title"> |</div>
-                        <div class="box-dash__title">+за 24 ч</div>
-                        <div class="box-dash__value"><span class="addUsers"></span></div>
-                        <div class="box-dash__title"> |</div>
+                    <div class="box-dash__row"> <!-- # row 3-->
+<!--                        <div class="box-dash__div"> |</div>-->
+                        <div class="box-dash__text">+за 24 ч</div>
+                        <div class="box-dash__perhour"><span class="addUsers"></span></div>
+<!--                        <div class="box-dash__div"> |</div>-->
 
-                        <div class="box-dash__title">+% за 24 час</div>
-                        <div class="box-dash__value"><span class="addUsersPers"></span></div>
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__text">+% за 24 час</div>
+                        <div class="box-dash__perhour_percenr"><span class="addUsersPers"></span></div>
+<!--                        <div class="box-dash__div"> |</div>-->
                     </div>
-                    <div class="box-dash__row">
-                        <div class="box-dash__title"> |</div>
-                        <div class="box-dash__title">Первый вход:</div>
-                        <div class="box-dash__value"><span class="dateFirstPay"></span></div>
-                        <div class="box-dash__title"> |</div>
+
+                    <div class="box-dash__row"> <!-- # row 4-->
+<!--                        <div class="box-dash__div"> |</div>-->
+                        <div class="box-dash__text">Ваше место:</div>
+                        <div class="box-dash__position"><span class="position"></span></div>
+<!--                        <div class="box-dash__div"> |</div>-->
+                        <div class="box-dash__text">Выплат:</div>
+                        <div class="box-dash__count-pays"><span class="countPays"></span></div>
+<!--                        <div class="box-dash__div"> |</div>-->
                     </div>
-                    <div class="box-dash__row">
-                        <div class="box-dash__title"> |</div>
-                        <div class="box-dash__title">Ваше место</div>
-                        <div class="box-dash__value"><span class="position"></span></div>
-                        <div class="box-dash__title"> |</div>
-                        <div class="box-dash__title">Кол-во</div>
-                        <div class="box-dash__value"><span class="countPays"></span></div>
-                        <div class="box-dash__title"> |</div>
+                    <div class="box-dash__row"> <!-- # row 5-->
+                        <div class="box-dash__text">Первый вход:</div>
+                        <div class="box-dash__first-pay"><span class="dateFirstPay"></span></div>
                     </div>
                 </div>
             </div>
@@ -114,12 +116,12 @@
                     </div>
                     <div class="box-dash__value"><span class="lvlNum">2</span></div>
 
-                    <div class="box-dash__title"> |</div>
+                    <div class="box-dash__div"> |</div>
                     <div class="box-dash__title">Линия</div>
                     <div class="box-dash__value"><span class="lineNum"></span></div>
                     <div class="box-dash__title">:</div>
                     <div class="box-dash__value"><span class="linePercent"></span></div>
-                    <div class="box-dash__title"> |</div>
+                    <div class="box-dash__div"> |</div>
 
                 </div>
                 <div class="progress">
@@ -138,29 +140,29 @@
                         <div class="box-dash__title"> |</div>
                     </div>
                     <div class="box-dash__row">
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                         <div class="box-dash__title">+за 24 ч</div>
                         <div class="box-dash__value"><span class="addUsers"></span></div>
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
 
                         <div class="box-dash__title">+% за 24 час</div>
                         <div class="box-dash__value"><span class="addUsersPers"></span></div>
                         <div class="box-dash__title"> |</div>
                     </div>
                     <div class="box-dash__row">
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                         <div class="box-dash__title">Первый вход:</div>
                         <div class="box-dash__value"><span class="dateFirstPay"></span></div>
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                     </div>
                     <div class="box-dash__row">
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                         <div class="box-dash__title">Ваше место</div>
                         <div class="box-dash__value"><span class="position"></span></div>
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                         <div class="box-dash__title">Кол-во</div>
                         <div class="box-dash__value"><span class="countPays"></span></div>
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                     </div>
                 </div>
             </div>
@@ -171,12 +173,12 @@
                     </div>
                     <div class="box-dash__value"><span class="lvlNum">3</span></div>
 
-                    <div class="box-dash__title"> |</div>
+                    <div class="box-dash__div"> |</div>
                     <div class="box-dash__title">Линия</div>
                     <div class="box-dash__value"><span class="lineNum"></span></div>
-                    <div class="box-dash__title">:</div>
+                    <div class="box-dash__div">:</div>
                     <div class="box-dash__value"><span class="linePercent"></span></div>
-                    <div class="box-dash__title"> |</div>
+                    <div class="box-dash__div"> |</div>
 
                 </div>
                 <div class="progress">
@@ -195,29 +197,29 @@
                         <div class="box-dash__title"> |</div>
                     </div>
                     <div class="box-dash__row">
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                         <div class="box-dash__title">+за 24 ч</div>
                         <div class="box-dash__value"><span class="addUsers"></span></div>
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
 
                         <div class="box-dash__title">+% за 24 час</div>
                         <div class="box-dash__value"><span class="addUsersPers"></span></div>
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                     </div>
                     <div class="box-dash__row">
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                         <div class="box-dash__title">Первый вход:</div>
                         <div class="box-dash__value"><span class="dateFirstPay"></span></div>
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                     </div>
                     <div class="box-dash__row">
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                         <div class="box-dash__title">Ваше место</div>
                         <div class="box-dash__value"><span class="position"></span></div>
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                         <div class="box-dash__title">Кол-во</div>
                         <div class="box-dash__value"><span class="countPays"></span></div>
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                     </div>
                 </div>
             </div>
@@ -228,12 +230,12 @@
                     </div>
                     <div class="box-dash__value"><span class="lvlNum">4</span></div>
 
-                    <div class="box-dash__title"> |</div>
+                    <div class="box-dash__div"> |</div>
                     <div class="box-dash__title">Линия</div>
                     <div class="box-dash__value"><span class="lineNum"></span></div>
                     <div class="box-dash__title">:</div>
                     <div class="box-dash__value"><span class="linePercent"></span></div>
-                    <div class="box-dash__title"> |</div>
+                    <div class="box-dash__div"> |</div>
 
                 </div>
                 <div class="progress">
@@ -252,29 +254,29 @@
                         <div class="box-dash__title"> |</div>
                     </div>
                     <div class="box-dash__row">
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                         <div class="box-dash__title">+за 24 ч</div>
                         <div class="box-dash__value"><span class="addUsers"></span></div>
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
 
                         <div class="box-dash__title">+% за 24 час</div>
                         <div class="box-dash__value"><span class="addUsersPers"></span></div>
                         <div class="box-dash__title"> |</div>
                     </div>
                     <div class="box-dash__row">
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                         <div class="box-dash__title">Первый вход:</div>
                         <div class="box-dash__value"><span class="dateFirstPay"></span></div>
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                     </div>
                     <div class="box-dash__row">
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                         <div class="box-dash__title">Ваше место</div>
                         <div class="box-dash__value"><span class="position"></span></div>
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                         <div class="box-dash__title">Кол-во</div>
                         <div class="box-dash__value"><span class="countPays"></span></div>
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                     </div>
                 </div>
             </div>
@@ -285,12 +287,12 @@
                     </div>
                     <div class="box-dash__value"><span class="lvlNum">5</span></div>
 
-                    <div class="box-dash__title"> |</div>
+                    <div class="box-dash__div"> |</div>
                     <div class="box-dash__title">Линия</div>
                     <div class="box-dash__value"><span class="lineNum"></span></div>
-                    <div class="box-dash__title">:</div>
+                    <div class="box-dash__div">:</div>
                     <div class="box-dash__value"><span class="linePercent"></span></div>
-                    <div class="box-dash__title"> |</div>
+                    <div class="box-dash__div"> |</div>
 
                 </div>
                 <div class="progress">
@@ -309,20 +311,20 @@
                         <div class="box-dash__title"> |</div>
                     </div>
                     <div class="box-dash__row">
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                         <div class="box-dash__title">+за 24 ч</div>
                         <div class="box-dash__value"><span class="addUsers"></span></div>
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
 
                         <div class="box-dash__title">+% за 24 час</div>
                         <div class="box-dash__value"><span class="addUsersPers"></span></div>
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                     </div>
                     <div class="box-dash__row">
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                         <div class="box-dash__title">Первый вход:</div>
                         <div class="box-dash__value"><span class="dateFirstPay"></span></div>
-                        <div class="box-dash__title"> |</div>
+                        <div class="box-dash__div"> |</div>
                     </div>
                     <div class="box-dash__row">
                         <div class="box-dash__title"> |</div>
@@ -2084,7 +2086,7 @@
     </main>
 
     <footer class="footer">
-        <p>© e-gm.info - наши рабы руками собирают статистику для вас прямо сейчас. Все права конечно не защищены.</p>
+        <p>© e-gm.info - наши роботы руками собирают статистику для вас прямо сейчас. Все права конечно не защищены.</p>
         <p>Копирование информации только после того как капнет денежка</p>
     </footer>
 </div>
