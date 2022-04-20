@@ -47,7 +47,7 @@ section{
 
 .header__title{
     text-transform: uppercase;
-    padding: 20px 0px;
+    padding: 1px 0px 5px;
     font-weight: 500;
     font-size: 30px;
 
@@ -64,10 +64,16 @@ section{
     background: linear-gradient(
             118deg
             ,#7367f0,rgba(115,103,240,.7));
-    border-radius: 50px;
-    width: 550px;
-    padding: 15px 20px;
+    border-radius: 20px;
 
+    /*padding: 5px 5px;*/
+
+    /*position: fixed;*/
+    /*top: 50px;*/
+    /*z-index: 100;*/
+
+    /* лехин колхох*/
+    z-index: 100;
 }
 #myChart{
     border-radius: 8px;
@@ -101,16 +107,39 @@ section{
     grid-row-gap: 30px;
 }
 .box-dash__item{
+
     flex-direction: column;
     align-items: flex-start;
     box-sizing: border-box;
     width: 100%;
-    min-width: 200px;
-    min-height: 300px;
+    min-width: 250px;
+    /*min-height: 300px;*/
     background: #3b4253;
     border: 1px solid #797ccdad;
-    border-radius: 7px;
-    margin-right: 20px;
+    border-radius: 8px;
+    margin-right: 5px;
+
+}
+.box-dash__item.mini{
+    min-height: 20px;
+    padding: 4px;
+}
+
+.box-dash__row.mini{
+    margin: 0;
+}
+
+.hidden{
+    display: none;
+    transition-property: display;
+    transition-duration: 3s;
+}
+
+.getChast{
+    border-radius: 4px;
+    width: 16px;
+    height: 20px;
+    padding: 0;
 
 }
 
@@ -124,7 +153,7 @@ section{
     background: #3b4253;
     border: 1px solid #797ccdad;
     border-radius: 7px;
-    margin-right: 20px;
+    margin-right: 10px;
 
 }
 
@@ -199,7 +228,7 @@ section{
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.btn{
+.mybtn{
     display: inline-block;
     border: 1px solid #d8d6de;
     font-weight: 400;
@@ -213,14 +242,14 @@ section{
     margin-left: 10px;
 
 }
-.btn:hover{
+.mybtn:hover{
     background-color: #d8d6de;
     border: 1px solid #d8d6de;
     color:#283046;
 }
 
 .box-dash__item{
-    padding: 20px 15px;
+    padding: 8px 16px;
 }
 .box-dash__row{
     display: flex;
@@ -230,7 +259,7 @@ section{
 }
 
 .box-dash__row:nth-child(1){
-    margin-bottom:20px;
+    margin-bottom:2px;
 }
 
 .box-dash__row:nth-child(1) .box-dash__title{
@@ -238,11 +267,11 @@ section{
     font-size: 14px;
 }
 
-.box-dash__row:nth-child(1) .box-dash__value{
-    font-weight: 500;
-    font-size: 20px;
-    color: darkgoldenrod;
-}
+/*.box-dash__row:nth-child(1) .box-dash__value{*/
+/*    font-weight: 500;*/
+/*    font-size: 20px;*/
+/*    color: darkgoldenrod;*/
+/*}*/
 
 .box-dash__title{
     font-size: 12px;
