@@ -109,6 +109,21 @@ section{
 
 }
 
+.form-switch{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+
+}
+.form-switch .form-check-input{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
 
 .dash__box{
     padding-top: 20px;
@@ -185,6 +200,9 @@ section{
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
+}
+.table4x__title a{
+    padding-left: 15px;
 }
 
 .box-dash__footer{
@@ -277,6 +295,19 @@ section{
     border: 1px solid #d8d6de;
     color:#283046;
 }
+
+.downbtn{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.downbtn:hover{
+    text-decoration: none;
+    color: #89c3f9;
+    cursor: pointer;
+    font-size: 15px;
+}
+
 
 .box-dash__item{
 
@@ -396,6 +427,24 @@ section{
     border-top: none;
 }
 
+
+.graph-section{
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.btnShowChart{
+    margin-left: 0;
+}
+
+.text-start, .text-info thead th{
+    color: #a5a5c7;
+}
+
+.pricing-header p{
+    color: #fff;
+}
 
 
 
