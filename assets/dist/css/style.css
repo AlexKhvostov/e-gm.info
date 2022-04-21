@@ -25,7 +25,6 @@ section{
     margin: 0 auto;
     padding: 0 2%;
     box-sizing: border-box;
-    box-sizing: border-box;
 }
 @media (max-width: 1200px) {
     ._container {
@@ -105,7 +104,7 @@ section{
 
 }
 .nav-bar__item{
-    font-size: 12px;
+    font-size: 16px;
 
 }
 
@@ -123,7 +122,9 @@ section{
     margin-bottom: 0;
     margin-top: 0;
 }
-
+.form-check{
+    margin-bottom: 0;
+}
 
 .dash__box{
     padding-top: 20px;
@@ -150,7 +151,18 @@ section{
 .box-dash__item.mini{
     min-height: 20px;
     padding: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+.box-dash__item.mini .progress{
+    margin-left: 15px;
+}
+.box-dash__item.mini .box-dash__line{
+    margin-left: 10px;
+}
+
+
 
 .box-dash__row.mini{
     margin: 0;
@@ -200,6 +212,9 @@ section{
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 .table4x__title a{
     padding-left: 15px;
@@ -305,7 +320,7 @@ section{
     text-decoration: none;
     color: #89c3f9;
     cursor: pointer;
-    font-size: 15px;
+
 }
 
 
@@ -316,7 +331,8 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 2px 0;
+
+
 }
 
 .box-dash__row:nth-child(1){
@@ -356,6 +372,7 @@ section{
 
 .box-dash__item .progress {
     margin: 5px 0;
+    width: 100%;
 }
 
 .box-dash__level {
@@ -421,7 +438,7 @@ section{
 }
 .minMAX .box-dash__row{
     border-top: 1px solid #6b799b;
-    padding: 0;
+    padding: 2px 0;
 }
 .minMAX .box-dash__row:nth-child(1){
     border-top: none;
