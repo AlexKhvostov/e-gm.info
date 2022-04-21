@@ -1,8 +1,8 @@
 if (typeof window.ethereum !== 'undefined') {
     console.log('MetaMask is installed!');
 
-    const ethereumButton = document.querySelector('#connectmm');
-    const showAccount = document.querySelector('#UserWallet');
+    const ethereumButton = document.body.querySelector('#connectmm');
+    const showAccount = document.body.querySelector('#UserWallet');
 
     ethereumButton.addEventListener('click', () => {
 
@@ -13,8 +13,12 @@ if (typeof window.ethereum !== 'undefined') {
         const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
         const account = accounts[0];
         showAccount.textContent = account.slice(0,8)+"..."+account.slice(-6);
-        showAccount.classList.add("active TrueWallet")
-        ethereumButton.classList.add("hidden")
+        console.log(showAccount);
+        console.log(ethereumButton);
+
+        ethereumButton.classList.add("hidden");
+        showAccount.classList.add("active")
+
 
         console.log("connection:",  ethereum.isConnected())
     }

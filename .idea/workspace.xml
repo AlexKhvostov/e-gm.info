@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b12b774-03ec-4450-8af2-6b9609690860" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/dist/js/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/e-gm.info.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_04_22,_09_23_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_04_22__09_23__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DashBoard.html" beforeDir="false" afterPath="$PROJECT_DIR$/DashBoard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/dist/css/mycss.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dist/css/mycss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/dist/js/DashBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dist/js/DashBoard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/dist/js/mm.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dist/js/mm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/dist/js/my_chart_.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dist/js/my_chart_.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +86,7 @@
       <workItem from="1650316971458" duration="50000" />
       <workItem from="1650317165275" duration="47358000" />
       <workItem from="1650419484012" duration="15748000" />
-      <workItem from="1650462860777" duration="44746000" />
+      <workItem from="1650462860777" duration="45393000" />
     </task>
     <servers />
   </component>
