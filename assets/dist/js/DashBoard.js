@@ -299,7 +299,7 @@ function levelTableGenerator(data){
     users2.textContent = "из "+  data.maxUser_v;
 
     per24h.textContent = data.addUsersPers_v;
-    per24h2.textContent = " из "+  data.addUsers_v;
+    per24h2.textContent = data.addUsers_v;
 
     openLine.textContent = "11 линия" ;
     openLine2.textContent = data.position_v+" место";
