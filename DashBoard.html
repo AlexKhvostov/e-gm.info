@@ -8,6 +8,8 @@
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/dist/css/style.css">
+    <link rel="stylesheet" href="assets/dist/css/mycss.css">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="assets/dist/favicon/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,6 +24,7 @@
 </head>
 <body style="opacity: 1; transition: opacity 0.9s ease-in-out 0s;">
 <div class="_container">
+<!--    хедер-->
     <header class="header flex-center">
         <div class="flex-center">
             <div class="header__title">Express Game Dashboard
@@ -32,7 +35,14 @@
 
         </div>
         <div class="nav-bar  flex-center">
-            <div class="nav-bar__item showBloks">Еще</div>
+            <div class="nav-bar__item showBloks">
+                <span>table</span>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="tableOrBox" checked>
+                </div>
+                <span>box</span>
+
+            </div>
         </div>
         <div class="header__enter flex-center">
             <div id="UserWallet" class="header__acc" disabled></div>
@@ -41,95 +51,92 @@
 
     </header>
 
-
+<!--    Секуия с Дашбордом-->
     <section class="dash__block">
 
+        <!--    Секуия с Дашбордом таблицей-->
+        <div class="dash__table hidden">
+            <table class="table table-dark table-hover table-bordered border-secondary">
+                <thead class="table-dark">
+                <tr>
+                    <th scope="col">lvl</th>
+                    <th scope="col">Акт <br>линия</th>
+                    <th scope="col">Всего<br>уч-в</th>
+                    <th scope="col">за 24 ч.</th>
+                    <th scope="col">Ваше <br> открытие</th>
+                    <th scope="col">Время</th>
+                </tr>
+                </thead>
+                <tbody>
+<!--                <tr class="table-active">-->
+<!--                    <th scope="col">1D</th>-->
+<!--                    <th scope="col">13 лин. <br>21124 </th>-->
+<!--                    <th scope="col">от 12000<br>до 32151</th>-->
+<!--                    <th scope="col"> <br> 12 333 из 31000</th>-->
+<!--                    <th scope="col">+12%  <br> +7 чел.</th>-->
+<!--                    <th scope="col">3 лин. <br> 325 м.</th>-->
+<!--                    <th scope="col">12.04.2022 <br>18:01:01</th>-->
+<!--                    <th scope="col">6 <br> +7я тек </th>-->
+<!--                </tr>-->
+<!--                <tr class="table-active">-->
+<!--                    <th scope="col">1D</th>-->
+<!--                    <th scope="col">13 <br>34000</th>-->
+<!--                    <th scope="col">от 12000<br>до 32151</th>-->
+<!--                    <th scope="col">24% <br> 12 333 из 31000</th>-->
+<!--                    <th scope="col">+12%  <br> +7 чел.</th>-->
+<!--                    <th scope="col">3 линия <br> 325 место</th>-->
+<!--                    <th scope="col">12.04.2022 <br>18:01:01</th>-->
+<!--                    <th scope="col">6 <br>7я акт </th>-->
+<!--                </tr>-->
+<!--                <tr class="table-active">-->
+<!--                    <th scope="col">1D</th>-->
+<!--                    <th scope="col">13 <br>34000</th>-->
+<!--                    <th scope="col">от 12000<br>до 32151</th>-->
+<!--                    <th scope="col">24% <br> 12 333 из 31000</th>-->
+<!--                    <th scope="col">+12%  <br> +7 чел.</th>-->
+<!--                    <th scope="col">3 линия <br> 325 место</th>-->
+<!--                    <th scope="col">12.04.2022 <br>18:01:01</th>-->
+<!--                    <th scope="col">6 <br>7я акт </th>-->
+<!--                </tr>-->
+
+                </tbody>
+            </table>
+        </div>
+
+        <!--    Секуия с Дашбордом боксами-->
         <div class="dash__box">
             <div class="table4x drive">
                 <div class="table4x__title">Express Drive</div>
-                <div class="box-dash__item">
-                    <div class="box-dash__row"> <!-- # row1-->
-                        <div class="form-check form-switch">
-                            <input class="form-check-input" type="checkbox" id="1D">
-                        </div>
-                        <div class="box-dash__level"><span class="lvlNum">1</span></div>
-
-                        <!--                    <div class="box-dash__div"> |</div>-->
-                        <div class="box-dash__text">Линия</div>
-                        <div class="box-dash__line"><span class="lineNum"></span></div>
-                        <!--                    <div class="box-dash__div">:</div>-->
-                        <div class="box-dash__percent"><span class="linePercent"></span></div>
-                        <!--                    <div class="box-dash__div"> |</div>-->
-
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 0
-"
-                             aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <div class="minMAX">
-                        <div class="box-dash__row"> <!-- # row 2-->
-                            <div class="box-dash__text">min</div>
-                            <div class="box-dash__min"><span class="minUser"></span></div>
-                            <div class="box-dash__text">now</div>
-                            <div class="box-dash__now"><span class="nowUser"></span></div>
-                            <div class="box-dash__text">max</div>
-                            <div class="box-dash__max"><span class="maxUser"></span></div>
-                            <!--                        <div class="box-dash__title"> |</div>-->
-                        </div>
-                        <div class="box-dash__row"> <!-- # row 3-->
-                            <!--                        <div class="box-dash__div"> |</div>-->
-                            <div class="box-dash__text">+за 24 ч</div>
-                            <div class="box-dash__perhour"><span class="addUsers"></span></div>
-                            <!--                        <div class="box-dash__div"> |</div>-->
-
-                            <div class="box-dash__text">+% за 24 час</div>
-                            <div class="box-dash__perhour_percenr"><span class="addUsersPers"></span></div>
-                            <!--                        <div class="box-dash__div"> |</div>-->
-                        </div>
-
-                        <div class="box-dash__row"> <!-- # row 4-->
-                            <!--                        <div class="box-dash__div"> |</div>-->
-                            <div class="box-dash__text">Ваше место:</div>
-                            <div class="box-dash__position"><span class="position"></span></div>
-                            <!--                        <div class="box-dash__div"> |</div>-->
-                            <div class="box-dash__text">Выплат:</div>
-                            <div class="box-dash__count-pays"><span class="countPays"></span></div>
-                            <!--                        <div class="box-dash__div"> |</div>-->
-                        </div>
-                        <div class="box-dash__row"> <!-- # row 5-->
-                            <div class="box-dash__text">Первый вход:</div>
-                            <div class="box-dash__first-pay"><span class="dateFirstPay"></span></div>
-                        </div>
-                    </div>
-                </div>
+                <button class="mybtn expandBloks" type="">▼</button>
             </div>
             <div class="table4x main_1-8">
                 <div class="table4x__title">Express Main 1-8</div>
+                <button class="mybtn expandBloks"type="">▼</button>
             </div>
             <div class="table4x main_9-16">
                 <div class="table4x__title">Express Main 8-16</div>
+                <button class="mybtn expandBloks" type="">▼</button>
             </div>
             <div class="table4x div_max">
                 <div class="table4x__title">Express MAX</div>
+                <button class="mybtn expandBloks"  type="">▼</button>
             </div>
 
 
-
-
         </div>
-
     </section>
 
+<!--    График-->
     <section style="padding-top: 30px;">
-        <button type="button" class="btn btn-dark btnGetChart">Обновить</button>
+        <button type="button" class="btn btn-dark btnShowChart">Загрузить график:</button>
         <span>График открытий уровня:</span>
-        <div id="myChart" style="height: 600px;"></div>
+        <div id="myChart"></div>
     </section>
 
+<!--    Таблица с транзакциями-->
     <section class="list__tras" style="padding-top: 30px;">
         <span> Таблица открытий уровня:</span>
-        <div class="bg-light" >
+        <div class="bg-light">
 
             <nav aria-label="Page navigation example">
                 <ul class="pagination">
@@ -151,14 +158,18 @@
         </div>
     </section>
 
+    <!--    Плата за данные -->
     <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-        <h1 class="display-4 fw-normal">Вознаграждение:</h1>
-        <p class="fs-5 text-muted">Мы - несколько простых парней, пытаемся помочь вам поступить правильно и больше понимать о том с чем имеете дело. Проделали огромную работу по сбору и анализу данных.
-            Хотим вам все показать, но поймите правильно небесплатно, семию кормить тоже надо.
-            Поэтому просим небольшие вознаграждения.</p>
-        <p>ВНИМАНИЕ: Для  2го и 3го пакета: </p>
+        <h1 class="display-4 fw-normal">Стань инвестором</h1>
+        <p class="fs-5 text-muted"> Окажите нам помощь, а мы поделимся информацией которую находим.</p>
+        <p class="fs-5 text-muted">Мы - команда простых парней, пытаемся помочь людям больше и лучше
+            понимать о том с чем имеют дело. Проделываем огромную работу по поиску, сбору и анализу данных.
+            Готовы с вами поделиться, но поймите правильно, семьи кормить тоже надо.
+            Поэтому просим проинвестировать небольшие деньги на печеньки и развитие сервиса. А мы в свою очередь поделимся результатами нашей работы </p>
+        <p>ВНИМАНИЕ: Для 2го и 3го пакета: </p>
         <p> Информация будет показываться только по подключенному кошельку с которого была награда.
-            Это должен быть тот кошелек с которым Вы играли в SmartGame. Иначе мы не найдем Вас в списках участников. </p>
+            Это должен быть тот кошелек с которым Вы играли в SmartGame. Иначе мы не найдем Вас в списках
+            участников. </p>
     </div>
     <main>
         <div class="row text-secondary row-cols-1 row-cols-md-3 mb-3 text-center">
@@ -318,6 +329,7 @@
         </div>
     </main>
 
+<!--    футер-->
     <footer class="footer">
         <p>© e-gm.info - наши роботы руками собирают статистику для вас прямо сейчас. Все права конечно не защищены.</p>
         <p>Копирование информации только после того как капнет денежка</p>

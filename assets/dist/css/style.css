@@ -52,6 +52,7 @@ section{
     font-weight: 500;
     font-size: 30px;
 
+
 }
 
 .header__link{
@@ -142,8 +143,7 @@ section{
 
 .hidden{
     display: none;
-    transition-property: display;
-    transition-duration: 3s;
+
 }
 
 .getChast{
@@ -328,41 +328,43 @@ section{
 }
 
 .box-dash__level {
-    color: darkgoldenrod;
-    font-size: 14px;
+    color: #1ff5ba;
+    font-size: 16px;
     font-weight: bold;
     border-right: 2px solid #6b799b;
     padding-right: 10px;
 }
 
 .box-dash__line {
-    color: green;
+    color: #89c3f9;
     font-size: 14px;
     font-weight: bold;
-    border-right: 2px solid #6b799b;
-    padding-right: 10px;
+    /*border-right: 2px solid #6b799b;*/
+    /*padding-right: 10px;*/
 }
 
 .box-dash__percent {
-    color: darkolivegreen;
-    font-size: 13px;
+    color: #89c3f9;
+    font-size: 14px;
     font-weight: bold;
+    padding-right: 10px;
+    border-right: 2px solid #6b799b;
 }
 
 .box-dash__min {
-    color: #78dd38;
+    color: #d7ffc2;
     font-size: 13px;
     font-weight: bold;
 }
 
 .box-dash__now {
-    color: yellow;
+    color: #ffffb7;
     font-size: 14px;
     font-weight: bold;
 }
 
 .box-dash__max {
-    color: #bc2328;
+    color: #ffbdc0;
     font-size: 13px;
     font-weight: bold;
 }
